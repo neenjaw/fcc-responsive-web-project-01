@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --main-text-color: #00435f;
+    --subtle-text-color: #107dac;
+     
+    --main-background-color: #99d4ee;
+    --accent-background-color: #71c7ec;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--accent-background-color);
+    color: var(--main-text-color);
+}
+
+main {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: var(--main-background-color);
+}
+
+#title {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--main-text-color);
+}
+
+#title .lead-up {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+#subtitle {
+    margin: 5px;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--subtle-text-color);
+    text-transform: lowercase;
+}
+
+#image {
+    display: block;
+    width: 80%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid var(--subtle-text-color);
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--subtle-text-color);
+}
+
+#main > article {
+    width: 95%;
+    margin: 0 auto;
+}
+
+article > p {
+    margin-left: 20px;
+}
+
+#achievements > li {
+    font-weight: 700;
+}
+
+#achievements ul {
+    font-weight: 300;
+}
+
+#achievements .date {
+    font-weight: 700;
+}
+
+#reference {
+    width: 95%;
+    margin: 15px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid var(--subtle-text-color);
+    text-align: center;
+}
